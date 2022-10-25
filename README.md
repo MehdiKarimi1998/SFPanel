@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/MehdiKarimi1998/SFPanel/dev/public/images/uim-logo-round.png" alt="logo" width="130" height="130" align="left" />
+<img src="https://raw.githubusercontent.com/MehdiKarimi1998/SFPanel/dev/public/images/logo-round.png" alt="logo" width="130" height="130" align="left" />
 
 <h1>SFPanel</h1>
 
