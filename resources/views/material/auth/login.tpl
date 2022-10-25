@@ -6,30 +6,30 @@
             <div class="auth-main auth-row auth-col-one">
                 <div class="auth-top auth-row">
                     <a class="boardtop-left" href="/">
-                        <div>首 页</div>
+                        <div>front page</div>
                     </a>
                     <div class="auth-logo">
-                        <img src="/images/uim-logo-round.png">
+                        <img src="/images/logo-round.png">
                     </div>
                     <a href="/auth/register" class="boardtop-right">
-                        <div>注 册</div>
+                        <div>Register</div>
                     </a>
                 </div>
                 <div class="auth-row">
                     <div class="form-group-label auth-row row-login">
-                        <label class="floating-label" for="email">邮箱</label>
+                        <label class="floating-label" for="email">Email</label>
                         <input class="form-control maxwidth-auth" id="email" type="email" name="Email" inputmode="email" autocomplete="username">
                     </div>
                 </div>
                 <div class="auth-row">
                     <div class="form-group-label auth-row row-login">
-                        <label class="floating-label" for="passwd">密码</label>
+                        <label class="floating-label" for="passwd">Password</label>
                         <input class="form-control maxwidth-auth" id="passwd" type="password" name="Password" autocomplete="current-password">
                     </div>
                 </div>
                 <div class="auth-row">
                     <div class="form-group-label auth-row row-login">
-                        <label class="floating-label" for="code">两步验证码（未设置请忽略）</label>
+                        <label class="floating-label" for="code">2-step verification code (ignore if not set)</label>
                         <input class="form-control maxwidth-auth" id="code" type="number" name="Code" inputmode="numeric" autocomplete="one-time-code">
                     </div>
                 </div>
@@ -44,7 +44,7 @@
 
                 <div class="btn-auth auth-row">
                     <button id="login" type="submit" class="btn btn-block btn-brand waves-attach waves-light">
-                        确认登录
+                        Confirm login
                     </button>
                 </div>
                 <div class="auth-help auth-row">
@@ -52,13 +52,13 @@
                         <div class="checkbox checkbox-adv">
                             <label for="remember_me">
                                 <input class="access-hide" value="week" id="remember_me" name="remember_me"
-                                       type="checkbox">记住我</input>
+                                       type="checkbox">remember me</input>
                                 <span class="checkbox-circle"></span>
                                 <span class="checkbox-circle-check"></span>
                                 <span class="checkbox-circle-icon mdi mdi-check"></span>
                             </label>
                         </div>
-                        <a href="/password/reset">忘记密码？</a>
+                        <a href="/password/reset">Forgot password？</a>
                     </div>
                 </div>
                 {if $config['enable_telegram_login'] === true}
@@ -66,7 +66,7 @@
                         <div class="tgauth">
                             <span>Telegram</span>
                             <button class="btn" id="calltgauth"><i class="mdi mdi-send-circle icon-lg"></i></button>
-                            <span>快捷登录</span>
+                            <span>Quick login</span>
                         </div>
                     </div>
                 {/if}
