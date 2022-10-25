@@ -1,10 +1,9 @@
 <?php
 
 /**
- * SSPanel-Uim Public Entrance File
+ * SFPanel Public Entrance File
  *
- * @license MIT(https://github.com/Anankke/SSPanel-Uim/blob/dev/LICENSE)
- *          Addition: You shouldn't remove staff page or entrance of that page.
+ * Addition: You shouldn't remove staff page or entrance of that page.
  */
 
 declare(strict_types=1);
